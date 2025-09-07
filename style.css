@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden; /* horizontal scroll stop */
+}
+
+.a{
+    height: 100%;
+    width: 100%;
+}
+
+.b{
+    height: 600px;
+    width: 100%;
+    background-image: url(mountainous-5942962.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1{
+    height: 50px;
+    width: 300px;
+    margin-top: 40px; 
+    margin-left: 50px;
+}
+
+.navb {
+    width: 100%;
+    height: 120px;
+}
+  
+.shade {
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;  /* 50px → 30px */
+}
+  
+.logo img {
+    height: 60px;
+    width: auto;
+}
+  
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+    padding-left: 40px; /* 80px → 40px */
+}
+  
+.l1 a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    position: relative;
+}
+  
+.l1 a:hover {
+    color: orange;
+}
+  
+.l1 a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: orange;
+    transition: width 0.3s ease-in-out;
+}
+  
+.l1 a:hover::after {
+    width: 100%;
+}
+
+.c{
+    height:200px ;
+    width: 80% ;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.h1{
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.h2{
+    font-size: 60px ;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.h4{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+i{
+    color: white;
+    font-size: 20px;
+}
+
+.d{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(63, 63, 214);
+    margin-top: 180px;
+}
+
+.d2{
+    height: 50px;
+    width: 100%;
+    padding-top: 30px;
+} 
+
+.d3{
+    color: white;
+    font-weight: bold;
+    display: inline;
+    justify-content: right;
+    padding-left: 100px;
+}
+.e{
+    height: 150px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.head2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family:"Dancing Script", cursive ;
+
+
+}
+.para1{
+    font-size: 20px;
+    text-align: justify;
+    font-family:"Dancing Script", cursive ;
+}
+
+/* second background image */
+
+.f{
+    height: 1700px;
+    width: 100%;
+    background-image:url('hallstatt-3609863_1280.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.shade2{
+    height: 1050px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+} 
+.f1{
+    color: white;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;   /* responsive fix */
+    padding: 20px;
+    overflow-x: hidden; /* prevent overflow */
+    margin-top: 40px;
+}
+.box1{
+    height:350px ;
+    width:320px ;
+    background-color: white;
+}
+
+/* div 1 */
+.im1{
+    height:200px ;
+    width:320px ;
+}
+.ff2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.fff2{
+    color: rgb(51, 51, 202);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* div 2 */
+.im2{
+    height:200px ;
+    width:320px ;
+}
+.gg2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.ggg2{
+    color: rgb(51, 51, 202);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* div 3 */
+.im3{
+    height:200px ;
+    width:320px ;
+}
+.ii2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.iii2{
+    color: rgb(51, 51, 202);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.k1{
+    color: white;
+    padding-top: 25px;
+}
+.prnt{
+    width: 100%;
+    background-color: rgb(9, 9, 78);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 105px;
+}
+.k2{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(12, 12, 116);
+    font-weight: bold;
+}
+.k3{
+    align-items: center;
+    align-self: center;
+}
+
+.j{
+    background-image: url('lake-1681485_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1050px;
+    margin-top: 20px;
+}
+.shade3{
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0 ,0.4);
+}
+
+.jj2{
+    font-size: 20px;
+    font-family:"Dancing Script", cursive ;
+    font-weight: bold;
+    text-align: center;
+}
+.jjj2{
+    font-size: 50px;
+    font-family:"Dancing Script", cursive ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.j2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap; /* responsive fix */
+    padding: 80px;
+    overflow-x: hidden; /* prevent overflow */
+}
+
+.j3, .j4, .j6, .j7 {
+    font-family:"Dancing Script", cursive ;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.j3{
+    height: 400px;
+    width: 350px;
+    background-color: rgb(73, 119, 119);
+    color: white;
+}
+.j4{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(194, 194, 228);
+    color: white;
+}
+.j6{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(78, 78, 68);
+    color: white;
+}
+.j7{
+    height: 400px;
+    width: 350px;
+    background-color: rgb(248, 252, 252);
+    color: black;
+}
+
+.m{
+    width: 100%;
+    height: 475px;
+    background-color: rgb(39, 38, 38);
+    margin-top: 50px;
+}
+
+.set{
+    width: 300px;
+    height: 50px;
+}
+.m2{
+    height: 60px;
+    width: 300px;
+}
+.m3{
+    color: aliceblue;
+    text-align: center;
+}
+.m6{
+    color: aliceblue;
+    width: 250px;
+}
+
+.m8{
+    height: 100px;
+    width: 100%;
+    margin-top: 90px;
+    background-color:rgb(14, 13, 13);
+    display: block;
+}
+.mm{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;  /* spelling fixed */
+    padding: 0 20px;          /* 80px → 20px */
+    gap: 40px;                /* 90px → 40px */
+    padding-top: 80px;
+    flex-wrap: wrap;          /* overflow fix */
+}
+.mm8{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding-top: 20px;
+}
+
+/* responsive part same as yours ... */
+
+
+@media (max-width : 767px) {
+    .b{
+        height: 500px;
+        width: 100%;
+    }
+    .h4{
+        font-size: 20px;
+    }
+    .h1{
+        font-size: 40px;
+    }
+    .h2{
+        font-size: 50px;
+    }
+    .navb{
+        height: 90px;
+    }
+    .shade{
+        height: 80px;
+    }
+    .nav{
+        visibility: hidden;
+    }
+    .img1{
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 120px;
+    }
+    .d{
+        height: 140px;
+        
+    }
+    .d2{
+        padding-top:0 ;
+    }
+    .d3{
+        display: block;
+        
+    }
+    .e{
+       height: 200px;
+       padding-top: 150px;
+      
+       
+    }
+.head2{
+    font-size: 17px;
+}
+.para1{
+    font-size: 15px;
+}
+.f{
+    height: 5000px;
+}
+.rev{
+    padding-top: 70px;
+}
+.f{
+    height: 4525px;
+}
+.prnt{
+   padding-top: 15px;
+}
+.k1{
+    font-size: 20px;
+    padding-top: 0;
+}
+.k2{
+    height: 30px;
+    margin-bottom: 10px;
+}
+.j3{
+height: 300px;
+padding-left: 10px;
+font-size: 15px
+
+}
+.j4{
+    height: 300px;
+    padding-left: 10px;
+    font-size: 15px
+}
+.j6{
+    height: 300px;
+    padding-left: 10px;
+    font-size: 15px
+}
+.j7{
+    height: 300px;
+padding-left: 10px;
+font-size: 15px
+}
+.j{
+    height: 1600px;
+}
+.shade3{
+    height: 1600px;
+}
+.m{
+    margin-top: 600px;
+    height: 800px;
+}
+.mm{
+    display: block;
+    padding-left:30px ;
+    
+}
+.set{
+    height: 250px;
+}
+.image{
+    width:300px ;
+}
+.m8{
+    margin-top: 390px;
+}
+.mm8{
+    font-size: 13px;
+}
+
+
+}
